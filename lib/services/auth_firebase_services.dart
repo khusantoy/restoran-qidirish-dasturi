@@ -2,7 +2,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 
 class AuthFirebaseServices {
-
   Future<void> register({
     required String emailAddress,
     required String password,
@@ -64,5 +63,4 @@ class AuthFirebaseServices {
   static Future<void> logout() async {
     await FirebaseAuth.instance.signOut();
   }
-
 }

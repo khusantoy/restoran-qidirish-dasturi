@@ -21,14 +21,13 @@ class _RegisterScreenState extends State<RegisterScreen> {
   void _validateAndSubmit() async {
     if (_formKey.currentState!.validate()) {
       Messages.showLoadingDialog(context);
-      await _authController
-          .register(
+      await _authController.register(
         emailAddress: emailController.text,
         password: passwordController.text,
-      )
-          .then((user) {
-        Navigator.pop(context);
-      });
+      );
+
+      Navigator.pop(context);
+      Navigator.pop(context);
     }
   }
 
