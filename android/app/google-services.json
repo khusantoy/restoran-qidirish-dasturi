@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "775141593503",
+    "firebase_url": "https://lesson46-d8367-default-rtdb.firebaseio.com",
+    "project_id": "lesson46-d8367",
+    "storage_bucket": "lesson46-d8367.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775141593503:android:02db0926afba0fe355edaa",
+        "android_client_info": {
+          "package_name": "com.example.restoran_qidirish_dasturi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1YXJ-_TWq7mz2LyN20260aEmOd6whj9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
