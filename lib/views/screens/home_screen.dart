@@ -80,6 +80,20 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 Align(
+                  alignment: Alignment.bottomRight,
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(
+                        vertical: 50, horizontal: 10),
+                    child: FloatingActionButton(
+                      onPressed: () {
+                        goToMyLocation();
+                      },
+                      backgroundColor: Colors.white,
+                      child: const Icon(Icons.location_searching),
+                    ),
+                  ),
+                ),
+                Align(
                   alignment: Alignment.centerRight,
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 10),
